@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: monitor
+    container_name: monitor
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/home/node/app
+      - ./node_modules:/home/node/app/node_modules
+    # command: npm run dev

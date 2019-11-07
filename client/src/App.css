@@ -1,0 +1,29 @@
+.card {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.table-container {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.last-update-time {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.graph-container {
+  margin-top: 1.5rem;
+}
+
+.mybtn {
+  margin: 0.6rem;
+}
+
+#canvas-holder {
+  background-color: #FFFFFF;
+  position: relative;
+  min-height:25vh;
+  min-width:40vw
+}

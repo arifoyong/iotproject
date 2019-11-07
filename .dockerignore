@@ -1,0 +1,7 @@
+.gitignore
+.env
+node_modules
+npm-debug.log
+Dockerfile-dev
+Dockerfile-prod
+frntend/node_modules
